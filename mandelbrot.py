@@ -15,7 +15,7 @@ def iteration(z, c, limit):
 
 
 def colour_map(n, m):
-    return [1-n / m, 1-n / m, 0]
+    return [1-n / m, 1-n / m, 1-n / m]
 
 
 def complex_map_gen(low_c, upper_c, delta):
